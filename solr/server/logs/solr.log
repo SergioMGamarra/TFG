@@ -1,0 +1,106 @@
+2016-09-08 18:42:20.041 INFO  (main) [   ] o.e.j.u.log Logging initialized @973ms
+2016-09-08 18:42:21.145 INFO  (main) [   ] o.e.j.s.Server jetty-9.3.8.v20160314
+2016-09-08 18:42:21.203 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///Applications/MAMP/htdocs/science/solr/server/contexts/] at interval 0
+2016-09-08 18:42:21.766 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2016-09-08 18:42:21.815 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@6c3708b3{/solr,file:///Applications/MAMP/htdocs/science/solr/server/solr-webapp/webapp/,STARTING}{/Applications/MAMP/htdocs/science/solr/server/solr-webapp/webapp} has uncovered http methods for path: /
+2016-09-08 18:42:21.855 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=1539805781@5bc79255
+2016-09-08 18:42:22.025 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-09-08 18:42:22.025 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /Applications/MAMP/htdocs/science/solr/server/solr
+2016-09-08 18:42:22.037 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/Applications/MAMP/htdocs/science/solr/server/solr'
+2016-09-08 18:42:22.038 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-09-08 18:42:22.038 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /Applications/MAMP/htdocs/science/solr/server/solr
+2016-09-08 18:42:22.060 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /Applications/MAMP/htdocs/science/solr/server/solr/solr.xml
+2016-09-08 18:42:22.569 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Config-defined core root directory: /Applications/MAMP/htdocs/science/solr/server/solr
+2016-09-08 18:42:22.756 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 1742920067
+2016-09-08 18:42:22.757 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=/Applications/MAMP/htdocs/science/solr/server/solr]
+2016-09-08 18:42:22.757 WARN  (main) [   ] o.a.s.c.CoreContainer Couldn't add files from /Applications/MAMP/htdocs/science/solr/server/solr/lib to classpath: /Applications/MAMP/htdocs/science/solr/server/solr/lib
+2016-09-08 18:42:22.809 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,connectionsEvictorSleepDelay : 5000,maxConnectionIdleTime : 40000,
+2016-09-08 18:42:23.754 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2016-09-08 18:42:23.761 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2016-09-08 18:42:23.763 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2016-09-08 18:42:23.766 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2016-09-08 18:42:23.766 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2016-09-08 18:42:24.346 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Looking for core definitions underneath /Applications/MAMP/htdocs/science/solr/server/solr
+2016-09-08 18:42:24.376 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 0 core definitions
+2016-09-08 18:42:24.381 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=/Applications/MAMP/htdocs/science/solr/server
+2016-09-08 18:42:24.381 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2016-09-08 18:42:24.447 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@6c3708b3{/solr,file:///Applications/MAMP/htdocs/science/solr/server/solr-webapp/webapp/,AVAILABLE}{/Applications/MAMP/htdocs/science/solr/server/solr-webapp/webapp}
+2016-09-08 18:42:24.543 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@77c2494c{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+2016-09-08 18:42:24.543 INFO  (main) [   ] o.e.j.s.Server Started @5478ms
+2016-09-08 18:42:25.271 INFO  (qtp985934102-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1473359056809} status=0 QTime=316
+2016-09-08 18:42:25.463 INFO  (qtp985934102-12) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1473359056839} status=0 QTime=509
+2016-09-08 18:42:42.353 INFO  (qtp985934102-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1473360162113} status=0 QTime=0
+2016-09-08 18:42:42.380 ERROR (qtp985934102-13) [   ] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: Zookeeper is not configured for this Solr Core. Please try connecting to an alternate zookeeper address.
+	at org.apache.solr.handler.admin.ZookeeperInfoHandler$ZKPrinter.writeError(ZookeeperInfoHandler.java:539)
+	at org.apache.solr.handler.admin.ZookeeperInfoHandler$ZKPrinter.<init>(ZookeeperInfoHandler.java:464)
+	at org.apache.solr.handler.admin.ZookeeperInfoHandler.handleRequestBody(ZookeeperInfoHandler.java:400)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:154)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:658)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:440)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1668)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:581)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1160)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:511)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1092)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:518)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:308)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:244)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:246)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:156)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-09-08 18:42:42.381 INFO  (qtp985934102-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/zookeeper params={path=/live_nodes&wt=json&_=1473360162335} status=404 QTime=28
+2016-09-08 18:42:42.382 ERROR (qtp985934102-13) [   ] o.a.s.s.HttpSolrCall null:java.lang.NullPointerException
+	at org.apache.solr.response.RawResponseWriter.getBaseWriter(RawResponseWriter.java:68)
+	at org.apache.solr.response.RawResponseWriter.getContentType(RawResponseWriter.java:77)
+	at org.apache.solr.servlet.HttpSolrCall.writeResponse(HttpSolrCall.java:713)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:665)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:440)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1668)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:581)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1160)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:511)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1092)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:518)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:308)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:244)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:246)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:156)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-09-08 18:42:42.396 INFO  (qtp985934102-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1473360162113} status=0 QTime=43
+2016-09-08 18:43:45.353 INFO  (qtp985934102-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=27
+2016-09-08 18:43:51.903 INFO  (ShutdownMonitor) [   ] o.e.j.s.ServerConnector Stopped ServerConnector@77c2494c{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+2016-09-08 18:43:51.904 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1742920067
+2016-09-08 18:43:51.934 INFO  (ShutdownMonitor) [   ] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@6c3708b3{/solr,null,UNAVAILABLE}{/Applications/MAMP/htdocs/science/solr/server/solr-webapp/webapp}
+2016-09-08 18:43:51.935 WARN  (ShutdownMonitor) [   ] o.e.j.s.ServletContextHandler ServletContextHandler.setHandler should not be called directly. Use insertHandler or setSessionHandler etc.

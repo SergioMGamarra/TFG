@@ -1,0 +1,264 @@
+@font-face {
+    font-family: Bispo;
+    src: url("../fonts/Bispo.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('../fonts/glyphicons-halflings-regular.eot');
+    src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
+
+/* CLASES GENERALES  */
+
+
+.margin-top-large {
+    margin-top: 50px;
+}
+
+.margin-top-medium{
+    margin-top: 25px;
+
+}
+
+.margin-bottom-large {
+    margin-bottom: 50px;
+}
+
+.margin-bottom-medium{
+    margin-bottom: 25px!important;
+}
+
+.margin-bottom-small {
+    margin-bottom: 15px!important;
+}
+
+.full-width {
+    width: 100%;
+}
+
+
+/* CLASES NORMALES */
+
+
+.academic-title {
+    font-family: Bispo;
+    color: black;
+    font-size: 50px;
+}
+
+.container-login {
+    border: 1px solid black;
+    display: block;
+    margin: 0 auto;
+}
+
+.input-login {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+
+
+/* MEDIA QUERIES*/
+
+
+@media (min-width: 1200px) {
+    .container-login {
+        width: 55%;
+    }
+}
+
+
+/* OTRAS... */
+
+
+/* enable absolute positioning */
+.inner-addon {
+    position: relative;
+}
+
+/* style glyph */
+.inner-addon .glyphicon {
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+}
+
+/* align glyph */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+.search-site {
+    margin-top: 100px;
+    width: 100%;
+}
+
+.main-buscador {
+    width: 90%;
+    height: 40px;
+    float:left;
+    margin-bottom: 40px;
+}
+
+.half {
+    width: 45%;
+    float:left;
+}
+
+.btn-buscador {
+    width: 10%;
+    float: left;
+    height: 40px;
+    background-color: red;
+    display: table;
+}
+
+.search-icon {
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding-left: 35%;
+}
+
+.full-width {
+    width:100%;
+}
+
+.resultados {
+    margin-top: 27px;
+}
+
+.result-container {
+    padding-bottom: 20px;
+}
+
+.search-titulo {
+    font-size: 25px;
+}
+
+.search-abstract {
+
+}
+
+.search-autor {
+    font-size: 15px;
+    color: #28a4c9;
+}
+
+.search-fecha {
+    font-size: 10px;
+    color: lightgrey;
+}
+
+
+/* Móviles en horizontal o tablets en vertical
+  ------------------------------------------------------------------------- /
+@media (min-width: 768px) { }
+
+/ Tablets en horizonal y escritorios normales
+  ------------------------------------------------------------------------- /
+@media (min-width: 1024px) { }
+
+/ Escritorios muy anchos
+  ------------------------------------------------------------------------- */
+@media (min-width: 1200px) { }
+
+
+
+/* ARTICULOS */
+
+.art-title {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.etiquetas-art {
+    background-color: grey;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    margin-left: 20px;
+    float: left;
+}
+
+.art-autor {
+    font-size: 20px;
+    color: #1b6d85;
+    margin-bottom: 20px;
+}
+
+.article-abstract-title {
+    width: 100%;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.article-abstract-title-text {
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+.input-add-art {
+    font-size: 20px!important;
+    height: 50px!important;
+    text-align: center;
+}
+
+.input-add-art-little {
+    font-size: 15px!important;
+    height: 40px!important;
+    text-align: center;
+}
+
+.space-bottom {
+    margin-bottom: 20px!important;
+}
+
+.abstract-container {
+    height: 250px!important;
+}
+
+.fecha-art {
+    color: gray;
+    font-size: 14px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.tam-input-big-art {
+    height: 50px!important;
+}
+
+.btn-art {
+    background-color: #a94442;
+    color: white;
+}
+
+.nombre-etiqueta {
+    font-size: 30px;
+    text-align: center;
+}
+
+.nombre-etiqueta-container {
+    margin-top: 20px;
+    width: 100%;
+    padding: 8px;
+    color: white;
+    background-color: gray;
+}
+
+.input-file { position: relative; margin: 60px 60px 0 } /* Remove margin, it is just for stackoverflow viewing */
+.input-file .input-group-addon { border: 0px; padding: 0px; }
+.input-file .input-group-addon .btn { border-radius: 0 4px 4px 0 }
+.input-file .input-group-addon input { cursor: pointer; position:absolute; width: 72px; z-index:2;top:0;right:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0; background-color:transparent; color:transparent; }
