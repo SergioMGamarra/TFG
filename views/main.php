@@ -103,7 +103,7 @@
                         </li>
                     </ul>
                 </li>
-                <?php if(isset($_SESSION['id']) == 12) {
+                <?php if($_SESSION['id'] == 12) {
                     echo '<li class="dropdown">
                     <a href="#" class="dropdown-toggle " data-toggle="dropdown" title="Recomendaciones" aria-expanded="false" style="color: white;"><i class="icon-star"></i> Gestión</span> <b class="caret"></b></a>
                     <ul class="dropdown-menu">
